@@ -5,7 +5,6 @@ import { useNavigate, Link, useParams} from 'react-router-dom';
 export default function EditTool() {
 
    let navigate= useNavigate();
-
    const{id} = useParams();    
 
    const [tool, setTool]= useState({

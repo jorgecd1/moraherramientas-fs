@@ -45,12 +45,12 @@ export default function Home() {
                                 <td>{user.email}</td>
                                 <td>
                                     <Link className="btn btn-primary mx-2"
-                                    to={`/viewuser/${user.id}`}>View</Link>
+                                    to={`/viewuser/${user.id}`}>Ver</Link>
                                     <Link className="btn btn-outline-primary mx-2"
                                     to={`/edituser/${user.id}`}>
-                                    Edit</Link>
+                                    Editar</Link>
                                     <button className="btn btn-danger mx-2"
-                                    onClick={()=>deleteUser(user.id)}>Delete</button>
+                                    onClick={()=>deleteUser(user.id)}>Borrar</button>
                                 </td>
                             </tr>
                         ))}

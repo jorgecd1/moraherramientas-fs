@@ -44,7 +44,7 @@ export default function EditUser() {
           <form onSubmit={(e)=>onSubmit(e)}>
             <div className='mb-3'>
               <label htmlFor='Name' className='form-label'>
-                Name
+                Nombre de Empresa:
               </label>
               <input
               type={"text"}
@@ -56,7 +56,7 @@ export default function EditUser() {
             </div>
             <div className='mb-3'>
               <label htmlFor='Username' className='form-label'>
-                Username
+                Nombre del Contacto:
               </label>
               <input
               type={"text"}
@@ -68,7 +68,7 @@ export default function EditUser() {
             </div>
             <div className='mb-3'>
               <label htmlFor='Email' className='form-label'>
-                Email
+                Email / Teléfono:
               </label>
               <input
               type={"text"}

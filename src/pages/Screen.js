@@ -17,8 +17,8 @@ export default function Screen() {
             <div className="my-4 py-2 col-4 border shadow">
               <div className='btn-group-vertical' role="group" aria-label="Vertical button group">
               <Link className='btn btn-primary mt-2' to={'/home'}>Directorio de Contactos</Link>
-              <Link className='btn btn-primary my-1' to={'/tools'}>Directorio de Inventario</Link>
-              <button className='btn btn-secondary mb-2'>Placeholder para Documentación</button>
+              <Link className='btn btn-primary mt-1 mb-1' to={'/tools'}>Directorio de Inventario</Link>
+              <Link className='btn btn-primary mb-1' to={'/tickets'}>Directorio de Tickets</Link>
               </div>
             </div>
           </div>
